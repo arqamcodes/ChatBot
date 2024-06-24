@@ -6,7 +6,7 @@ import tkinter.font as tkFont
 class ChatbotGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Admission Test Chatbot")
+        self.root.title("DUET Admission Cell Chatbot")
         self.root.geometry("700x700")  # Set the window size
         self.root.configure(bg="#2E2E2E")  # Dark grey background
 
@@ -51,9 +51,6 @@ class ChatbotGUI:
 
     def load_faqs(self):
         faqs = [
-            "What is the admission test?",
-            "Why is the admission test important?",
-            "Who can take the admission test?",
             "When is the admission test?",
             "What are the important deadlines?",
             "How do I register for the admission test?",
@@ -91,14 +88,14 @@ class ChatbotGUI:
     def send_message(self, event=None):
         message = self.user_input.get()
         if message.strip():
-            self.display_message("User", message)
+            self.display_message("\nYou", message)
             response = self.chatbot.get_response(message)
             self.display_message("Bot", response)
             self.user_input.delete(0, tk.END)
 
     def display_message(self, sender, message):
         self.chat_display.config(state='normal')
-        self.chat_display.insert(tk.END, f"{sender}: {message}\n")
+        self.chat_display.insert(tk.END, f"{sender}: {message}\n" )
         self.chat_display.config(state='disabled')
         self.chat_display.see(tk.END)
 

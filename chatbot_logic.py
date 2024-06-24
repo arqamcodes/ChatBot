@@ -113,21 +113,17 @@ class Chatbot:
 
     # Admission Test Information Lowercase
 
-    # General Information
-    "what is the admission test?": "the admission test is an exam required to assess the eligibility of students for admission to a specific course or institution.",
-    "why is the admission test important?": "the admission test is important because it helps to evaluate a student's knowledge and skills, ensuring they meet the standards required by the institution.",
-    "who can take the admission test?": "any student who meets the eligibility criteria set by the institution can take the admission test.",
-
+  
     # Test Dates and Deadlines
-    "when is the admission test?": "the admission test is typically held twice a year. exact dates vary by institution, so check the official website for details.",
-    "what are the important deadlines?": "important deadlines include the application submission date, test date, and result announcement date. these are usually listed on the institution's website.",
+    "when is the admission test?": "The admission test is scheduled for August 11th, 2024, based on the most recent information available.",
+    "what are the important deadlines?": "Important deadlines include the Registration date, Test date \nRegistration Starts: 16th June 2024 \nRegistration Ends: 31st July 2024 \nTest Date: 11th August 2024",
 
     # Registration Process
-    "how do i register for the admission test?": "you can register for the admission test online through the institution's official website. fill out the application form and pay the required fee.",
-    "what documents are required for registration?": "required documents typically include a copy of your id, previous academic records, and proof of payment for the registration fee.",
+    "how do i register for the admission test?": "You can register for the admission test online through the DUET official website. Fill out the application form and pay the required fee.",
+    "what documents are required for registration?": "Required documents typically include a copy of your id, previous academic records, and proof of payment for the registration fee.",
 
     # Test Format and Content
-    "what is the format of the admission test?": "the format of the admission test usually includes multiple-choice questions, essay writing, and sometimes practical assessments, depending on the course.",
+    "what is the format of the admission test?": "The format of the admission test usually includes multiple-choice questions, essay writing, and sometimes practical assessments, depending on the course.",
     "what subjects are covered in the admission test?": "the subjects covered in the admission test vary by course but generally include mathematics, english, and general knowledge.",
 
     # Test Preparation
