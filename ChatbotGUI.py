@@ -16,7 +16,7 @@ class ChatbotGUI:
         self.bold_font = tkFont.Font(family="Poppins", size=10, weight="bold")
         self.title_font = tkFont.Font(family="Poppins", size=14, weight="bold")
 
-        self.chatbot = Chatbot(api_key="AIzaSyDpOA7USsGUbtP42LwotCclnTXb7f8YQD4")
+        self.chatbot = Chatbot(api_key="YOUR_API_KEY")
 
         self.chat_frame = tk.Frame(self.root, bg="#2E2E2E")
         self.chat_frame.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
