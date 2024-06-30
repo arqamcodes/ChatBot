@@ -6,4 +6,6 @@ Built using Python, the chatbot’s user interface is crafted with Tkinter, crea
 
 This project aims to streamline the admission process, making it easier for students to navigate the complexities of university admissions. I’m looking forward to seeing how this technology can improve our university's outreach and support, making a positive impact on prospective students' journeys <3
 
+ChatBot GUI:
+
 ![Chatbot](https://github.com/arqamcodes/ChatBot/assets/68507521/bd4c46de-ea00-482f-9013-6fc60586bfd2)
